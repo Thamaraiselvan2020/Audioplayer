@@ -1,0 +1,39 @@
+body {
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;  
+    background-color:rgb(2, 26, 26);
+}
+
+.audioPlayer {
+
+    border: 1px solid oldlace;
+    padding: 2px;
+    box-shadow: 5px 5px 5px 5px #e99361;
+    width: 300px;
+    display: flex
+}
+
+.playlist{
+
+    background: orangered;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  
+}
+
+a {
+    padding: .75rem 2.5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: oldlace;
+    text-decoration: none;
+}
+
+i { 
+    font-size: .75rem;
+    margin-right: .5rem;
+}
